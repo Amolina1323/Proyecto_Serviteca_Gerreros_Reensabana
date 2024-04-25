@@ -1,0 +1,222 @@
+body{
+    font-family: "Cambria Math";
+    background: rgb(37, 37, 37);
+    margin: 0;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    width: 100%;
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+.header .logo{
+    top: 0%;
+}
+
+.header{
+    background: #162B4E;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 100px;
+}
+
+.logo-busco-container{
+    position: absolute;
+    top: -70%;
+    right: 8%;
+    width: 110%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    scale: 70%;
+
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.nav li{
+    width: 200px;
+    background: #ffd700;
+    align-items: center;
+    display: inline-block;
+
+}
+
+
+
+
+.nav li a:hover{
+    background: white;
+    color: black;
+}
+
+.nav > li{
+    left: 10%;
+    width: 50%;
+}
+
+.nav li:hover> ul{
+    display: block;
+    padding: 0px;
+
+}
+
+
+.nav li ul{
+    display: none;
+    position: absolute;
+
+}
+.logo{
+    clip-path: inset(10% 0 20% 0);
+}
+
+
+
+.icons{
+    color:#ffd700;
+    position:absolute;
+    float: inline-end;
+    right: 4%;
+}
+
+.icons{
+    text-align:end;
+}
+
+.icons a{
+    font-size: 40px;
+    color: inherit;
+    width: 80px;
+    height: 80px;
+    line-height: 38px;
+    display: inline-block;
+    text-align:end;
+    margin: 0 5px;
+    align-items:flex-end;
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    border-radius: 5%;
+}
+
+.body{
+    position: absolute;
+}
+
+h1{
+    color: #ffd700;
+    text-align: center;
+}
+
+h3{
+
+    text-align: center;
+}
+
+.main{
+    padding-top: 6rem;
+}
+
+.product{
+    width: 50%;
+    align-content: center;
+}
+
+
+
+.products-container{
+    padding-left: 14%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:2rem;
+}
+
+.products-container .product{
+    text-align: center;
+    padding:4rem 3rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    outline: .1rem solid #ccc;
+    outline-offset: -1.5rem;
+    cursor: pointer;
+}
+
+.products-container .product:hover{
+    outline: .3rem solid #222;
+    outline-offset: 0;
+}
+
+.products-container .product img{
+    height: 120px;
+}
+
+
+.products-container .product h3{
+    padding:.5rem 0;
+    font-size: 20px;
+    color:#444;
+}
+
+.products-container .product:hover h3{
+    color:#27ae60;
+}
+
+.products-container .product .price{
+    font-size: 20px;
+    color:#444;
+}
+
+a{
+    text-decoration: none;
+}
+
+.img_index{
+    border-radius: 20px;
+    border-color: gold;
+}
+
+.index{
+    border-radius: 20px;
+    border-color: gold;
+}
+
+
+.foo{
+    padding: 3px 0;
+    background: #ffd700;
+    color: rgb(37, 37, 37);
+    bottom:0px;
+}
+
+.foo .copyright a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.copyright {
+    text-align: center;
+}
+
+
+

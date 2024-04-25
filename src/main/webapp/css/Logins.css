@@ -1,0 +1,227 @@
+body{
+    font-family: "Cambria Math";
+    background: rgb(37, 37, 37);
+    margin: 0;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.campo span {
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #ffd700;
+    color: black;
+}
+
+.container{
+    width: 100%;
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+.header .logo{
+    top: 0%;
+}
+
+.header{
+    background: #162B4E;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 100px;
+}
+
+.logo-busco-container{
+    position: absolute;
+    top: -70%;
+    right: 8%;
+    width: 110%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    scale: 70%;
+
+}
+
+.logo{
+    clip-path: inset(10% 0 20% 0);
+}
+
+
+
+.icons{
+    color:#ffd700;
+    position:absolute;
+    float: inline-end;
+    right: 4%;
+}
+
+.icons{
+    text-align:end;
+}
+
+.icons a{
+    font-size: 40px;
+    color: inherit;
+    width: 80px;
+    height: 80px;
+    line-height: 38px;
+    display: inline-block;
+    text-align:end;
+    margin: 0 5px;
+    align-items:flex-end;
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    border-radius: 5%;
+}
+
+
+.body{
+ position: absolute;
+}
+
+h1{
+    color: #ffd700;
+    text-align: center;
+}
+
+h3{
+
+    text-align: center;
+}
+
+.main{
+    padding-top: 6rem;
+}
+
+form{
+    text-align: start;
+    left: 36%;
+    height: 380px;
+    color: white;
+    background-color: #162B4E;
+    width: 23%;
+    padding: 15px 35px;
+    border-radius: 15px;
+    box-shadow: 0 0 6px 0 #ffd700;
+}
+.formulario{
+    width: 100px;
+    margin: auto;
+}
+form.grupo{
+    position: relative;
+    margin: 60px 20px;
+}
+input{
+        width: 100%;
+        height: 20px;
+        border: none;
+        border-bottom: 1px solid #ffd700;
+        outline: none;
+        color: white;
+        background-color: transparent;
+}
+
+textarea{
+    width: 100%;
+    height: 60px;
+    color: rgb(252, 252, 252);
+    border-color: #ffd700;
+    background-color: transparent;
+    resize: none;
+}
+
+h2{
+    text-align: center;
+    color:#ffd700;
+    font-size: 30px;
+}
+
+select{
+    width: 25%;
+    height: 32px;
+    background-color: transparent;
+    border: 1px solid #ffd700;
+    color: white;
+    font-size: 15px;;
+}
+
+option{
+    background-color: rgb(37, 37, 37);
+    color: aliceblue;
+    border: 1px solid#ffd700;
+}
+
+button{
+    height: 35px;
+    background: linear-gradient(to right, #ffd700, #ffd700); 
+    border-radius: 5px;
+    color: black;
+    border: none;
+    font-size: 16px;
+    transition: background 0.5s ease-out;
+}  
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+.animacion{
+    transition: all 0.2s ease-in-out;
+}
+.animacion{
+    transform: scale(1.1)
+    ;
+}
+button:hover{
+    background-position: 100px;
+    background-image: linear-gradient(to left, #ffd700, #ffd700, #ffd700);
+    transform: scale(1.1);
+
+
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    padding: 20px ;
+}
+label{
+    font-size: 13px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.foo{
+    padding: 3px 0;
+    background: #ffd700;
+    color: rgb(37, 37, 37);
+    bottom:0px;
+}
+
+.foo .copyright a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.copyright {
+    text-align: center;
+}
